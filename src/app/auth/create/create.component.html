@@ -1,0 +1,10 @@
+<div class="create flex flex-col gap-3">
+  <div class="date mb-5">{{dateToday}}</div>
+  <mat-form-field>
+    <mat-label>{{search}}</mat-label>
+    <input matInput>
+    <mat-icon matPrefix>search</mat-icon>
+  </mat-form-field>
+
+  <button mat-button (click)="create()">{{createLabel}}</button>
+</div>

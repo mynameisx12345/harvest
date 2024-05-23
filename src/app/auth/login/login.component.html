@@ -1,0 +1,19 @@
+<div class="login w-full flex flex-col gap-y-5">
+    <div class="title flex flex-row items-center justify-center m-5">
+     <span>Harvest</span> 
+     <img src="../../../assets/image/logo.jpg" height="auto" width="50px">
+    </div>
+    <mat-form-field class="w-full">
+      <mat-label>Username</mat-label>
+      <input matInput>
+    </mat-form-field>
+  
+    <mat-form-field class="w-full">
+      <mat-label>Password</mat-label>
+      <input matInput type="password">
+    </mat-form-field>
+
+    <button mat-button (click)="login()">Sign In</button>
+    <button mat-button (click)="signup()">Create Account</button>
+  
+</div>
